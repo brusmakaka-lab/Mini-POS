@@ -1,16 +1,46 @@
-# mini_pos
+# 🏪 Mini POS
 
-A new Flutter project.
+Sistema de punto de venta para comercios pequeños. Diseñado para ser rápido, simple y funcional sin conexión a internet.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)
+![Dart](https://img.shields.io/badge/Dart-3.0+-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Autenticación
+- Login con PIN numérico
+- Roles: Admin y Vendedor
+- Control de acceso por permisos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📦 Productos
+- CRUD completo con fotos
+- Código de barras (escáner + manual)
+- Alertas de stock bajo
+- Categorización
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 💸 Ventas
+- Carrito de compras
+- Descuentos por ítem
+- Cálculo automático de totales
+- Historial de transacciones
+
+### 📊 Reportes
+- Dashboard con KPIs en tiempo real
+- Gráficos de tendencia
+- Productos más vendidos
+- Filtros por período (Hoy/Semana/Mes/Año)
+
+## 🛠 Stack Técnico
+
+| Capa | Tecnología |
+|------|-----------|
+| Frontend | Flutter 3.0+ |
+| State Management | Riverpod |
+| Base de datos | Hive (local) |
+| Gráficos | fl_chart |
+| UI/UX | Material You + Google Fonts |
+
+## 🏗 Arquitectura
+<img width="720" height="446" alt="Captura de pantalla 2026-02-04 091657" src="https://github.com/user-attachments/assets/6f232621-d891-431f-9d82-cef7cd4c139a" />
+
