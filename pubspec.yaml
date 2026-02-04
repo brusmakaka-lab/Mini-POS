@@ -1,0 +1,51 @@
+name: mini_pos
+description: POS system for small businesses
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management simple pero potente
+  flutter_riverpod: ^2.4.9
+  
+  # Base de datos local ultra rápida
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+
+  
+  # UI/UX
+  google_fonts: ^6.1.0
+  flutter_slidable: ^3.0.1
+  intl: 0.20.2
+  fl_chart: ^0.66.0  # Para los reportes
+  
+  # Utilidades
+  uuid: ^4.2.1
+  path_provider: ^2.1.1
+
+ # Para fotos
+  image_picker: ^1.2.1
+  
+  # Alternativa para web: input manual con diseño de scanner
+  # O usamos mobile_scanner que soporta web con cámara
+  mobile_scanner: ^7.1.4
+  
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+
+flutter:
+  uses-material-design: true
